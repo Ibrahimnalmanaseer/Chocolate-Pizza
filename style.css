@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,400;0,700;1,200&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0 100px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FCF8E8;
+    padding: 0 100px;
+    line-height: 2rem;
+    
+
+}
+
+nav{
+
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+nav .logo_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-small;
+    
+    
+
+}
+
+.logo_image{
+
+    margin-right: 15px;
+    width: 40px;
+}
+
+
+h1{
+
+    font-family: 'Pacifico', cursive;
+    font-size:x-large
+}
+
+a:nth-of-type(5){
+
+    margin-right: 20px;
+}
+
+
+hr{
+
+
+  
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    background-color: #CFD2CF;
+    margin:35px 0 35px 0;
+  
+    
+    
+    
+}
+
+.intro  {
+
+    font-size:x-large;
+    margin-bottom: 20px;
+   
+}
+
+.intro p {
+
+    font-size: small;
+    color: gray;
+}
+
+
+.content{
+
+    padding: 0 30px;
+    width: 70%;
+}
+
+
+
+
+.content_details p{
+
+    margin: 40px 0 30px 0;
+}
+
+.info {
+
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin: 0 40px;
+   
+   
+    
+}
+
+#author{
+
+    display: flex;
+}
+
+.author{
+
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+button{
+
+    padding: 14px 30px;
+    height: 50px;
+    border: none;
+    background-color:#d6693a;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+hr.footer{
+
+    border-top: 1px solid red;
+    height: 0;
+    text-decoration-line: none;
+
+    
+}
+
+.Copyright{
+
+    margin-top: 200px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    line-height: 3;
+   
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  i{
+
+    margin-right: 10px;
+  }
